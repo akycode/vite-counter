@@ -1,0 +1,26 @@
+section {
+  display: flex;
+  justify-content: center; /* Center the row horizontally */
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.counter-row {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Space between basket and buttons */
+}
+
+button img,
+div img {
+  max-width: 30px; /* Make buttons smaller */
+  height: auto;
+}
+
+section > div {
+  display: flex;
+  justify-content: space-between;
+  width: 200px; /* Adjust width as needed */
+}
